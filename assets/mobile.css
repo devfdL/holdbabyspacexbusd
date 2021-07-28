@@ -1,0 +1,205 @@
+body{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family: 'Aldrich';
+    overflow-x: hidden;
+}
+
+
+@media only screen and (max-width : 720px) {
+    #bg{
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9;
+    }
+
+    /* topbar */
+    .topbar{
+        position: fixed;
+        z-index: 9999999999;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        height: 50px;
+        box-shadow: 1px 1px 10px #20202077;
+    }
+
+    .topbar h1{
+        display: none;
+    }
+
+    .topbar img{
+        width: 40px;
+        position: absolute;
+        top: 20px;
+        left: 30px
+    }
+
+    .icon {
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        padding: 5px 10px;
+        background-color: black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px #20202077;
+    }
+
+    .popup{
+        position: fixed;
+        z-index: 99999999;
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        padding-top: 100px;
+        display: none;
+    }
+
+    .popup a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+    .popup img{
+        height: 40vh;
+        position: relative;
+        top: 30px
+    }
+
+    .l-cntn{
+        position: relative;
+        z-index: 999;
+        width: 90vw;
+        left: 4vw;
+        top: 90px;
+    }
+
+    .l-cntn a{
+        text-decoration: none;
+        position: relative;
+        color: black;
+        background-color: white;
+        padding: 10px 20px;
+        top: 20px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .l-cntn a:hover{
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+
+    .l-cntn h1{
+        font-size: 25px;
+    }
+
+    .r-cntn{
+        position: relative;
+        z-index: 999;
+        width: 90vw;
+        left: 4vw;
+        top: 150px;
+    }
+
+    .r-cntn img{
+        height: 25vh;
+    }
+
+    .r-cntn h1{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .buy-on{
+        position: relative;
+        z-index: 999;
+        width: 90vw;
+        left: 4vw;
+        top: 200px;
+    }
+
+    .buy-on a{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .buy-on img{
+        height: 40px;
+    }
+
+    .roadmap{
+        position: relative;
+        z-index: 999;
+        width: 90vw;
+        left: 4vw;
+        top: 250px;
+    }
+
+    .roadmap p{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .roadmap img{
+        height: 25vh;
+    }
+
+    .footer{
+        position: relative;
+        z-index: 999;
+        width: 100vw;
+        left: -8px;
+        top: 300px;
+        background-color: black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footerbox{
+        position: relative;
+        width: 80vw;
+        left: 8vw;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .footerbox a{
+        text-decoration: none;
+        color: white;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .footerbox a:hover{
+        color: purple;
+    }
+
+    #footerbox  a{
+        text-decoration: none;
+        position: relative;
+        color: black;
+        background-color: white;
+        padding: 10px 20px;
+        top: 20px;
+        text-align: center;
+    }
+
+    #footerbox a:hover{
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+
+}

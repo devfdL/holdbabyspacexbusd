@@ -1,0 +1,277 @@
+body{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family: 'Aldrich';
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+@media only screen and (min-width : 722px) {
+
+    .fadein {
+        opacity: 0;
+        -moz-transition: opacity 1.5s;
+        -webkit-transition: opacity 1.5s;
+        -o-transition: opacity 1.5s;
+        transition: opacity 1.5s;
+    }
+    
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+
+    #bg{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    }
+
+    .topbar{
+        position: absolute;
+        z-index: 999999999999;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 50px;
+        background-color: transparent;
+        font-family: 'Audiowide';
+    }
+
+    .nav-colored { background-color:#000; box-shadow: 1px 1px 10px #20202077;}
+    .nav-transparent { background-color:transparent;}
+
+    .topbar img{
+        height: 35px;
+        position: absolute;
+        left: 30px;
+        top: 7.5px
+    }
+
+    .topbar h1{
+        font-size: 20px;
+        position: absolute;
+        left: 100px
+    }
+
+    .icon{
+        display: none;
+    }
+
+    .popup{
+        display: none;
+    }
+
+    .l-cntn{
+        position: absolute;
+        width: 40vw;
+        height: 60vh;
+        z-index: 2;
+        bottom: 170px;
+        left: 30px;
+        z-index: 2;
+    }
+
+    .l-cntn img{
+        width: 50%;
+        position: relative;
+    }
+
+    .l-cntn a{
+        text-decoration: none;
+        position: relative;
+        color: black;
+        background-color: white;
+        padding: 10px 20px;
+        top: 20px;
+    }
+
+    .l-cntn a:hover{
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+
+    .slideshow-container{
+        position: relative;
+        height: 50%;
+        text-align: center;
+        align-content: center;
+    }
+
+    .text{
+        position: absolute;
+        bottom: 30px;
+        width: 80%;
+        left: 10%;
+    }
+
+    .r-cntn{
+        position: absolute;
+        width: 40vw;
+        height: 70vh;
+        z-index: 2;
+        bottom: 100px;
+        right: 50px;
+    }
+
+    .r-cntn img{
+        width: 50%;
+        position: relative;
+    }
+
+    .line{
+        width: 60%;
+        border-top: 1px solid rgba(255, 255, 255, 0.616);
+        position: relative;
+        left: 20%;
+        top: -15px
+    }
+
+    .r-cntn h1{
+        font-weight: lighter;
+    }
+
+    #demo{
+        position: relative;
+        top: -20px;
+    }
+
+    .buy-on{
+        position: absolute;
+        z-index: 999;
+        width: 50vw;
+        left: 24vw;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        bottom: 50px;
+    }
+
+    .buy-on a{
+        display: inline-block;
+        margin-right: 60px;
+    }
+
+    .buy-on img{
+        height: 30px;
+    }
+
+    .buy-on h1{
+        font-size: 20px;
+    }
+
+    .buy-on a:hover{
+        height: 28px;
+        border-bottom: 2px solid white;
+    }
+
+    #rm{
+        position: relative;
+        z-index: 999;
+        color: white;
+        top: 94vh;
+        background-color: rgba(0, 0, 0, 0.781);
+        padding: 10px 30px;
+        text-decoration: none;
+    }
+
+    .roadmap{
+        position: relative;
+        top: 100vh;
+        z-index: 999;
+        width: 90vw;
+        left: 4vw;
+        height: 90vh;
+        text-align: left;
+    }
+
+    .rm-l{
+        position: absolute;
+        width: 40%;
+        top:40%;
+        left: 30px;
+    }
+
+    .roadmap img{
+        width: 40%;
+        position: absolute;
+        right: 10%;
+        top: 20%
+    }
+
+    /* footer */
+    .footer{
+        background-color: black;
+        position: relative;
+        left: -10px;
+        width: 100vw;
+        color: white;
+        top: 110vh;
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .footerbox{
+        width: 25vw;
+        display: inline-table;
+        margin-left: 50px;
+        height: 400px;
+    }
+
+    .footerbox h1{
+        font-weight: lighter;
+    }
+
+    .footerbox p{
+        color: #717171;
+    }
+
+    .footerbox a{
+        text-decoration: none;
+        color: white;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .footerbox a:hover{
+        color: purple;
+    }
+
+    #footerbox  a{
+        text-decoration: none;
+        position: relative;
+        color: black;
+        background-color: white;
+        padding: 10px 20px;
+        top: 20px;
+        text-align: center;
+    }
+
+    #footerbox a:hover{
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+    }
+
+    
+
+}
