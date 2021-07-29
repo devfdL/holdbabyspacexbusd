@@ -17,7 +17,7 @@ var nodesjs = new NodesJs({
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jul 28, 2021 12:37:00").getTime();
+var countDownDate = new Date("Jul 30, 2021 19:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -35,23 +35,23 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-  // document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  // + minutes + "m " + seconds + "s ";
+   document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
 
   // // Output the result in an element with id="demo"
-  // document.getElementById("demo1").innerHTML = days + "d " + hours + "h "
-  // + minutes + "m " + seconds + "s ";
+   document.getElementById("demo1").innerHTML = days + "d " + hours + "h "
+   + minutes + "m " + seconds + "s ";
     
   // If the count down is over, write some text 
-  // if (distance < 0) {
-  //   clearInterval(x);
-  //   document.getElementById("demo").innerHTML = "LAUNCH!!!";
-  // }
+   if (distance < 0) {
+     clearInterval(x);
+     document.getElementById("demo").innerHTML = "LAUNCH!!!";
+   }
 
-  // if (distance < 0) {
-  //   clearInterval(x);
-  //   document.getElementById("demo1").innerHTML = "LAUNCH!!!";
-  // }
+   if (distance < 0) {
+     clearInterval(x);
+     document.getElementById("demo1").innerHTML = "LAUNCH!!!";
+   }
 }, 1000);
 
 var slideIndex = 0;
