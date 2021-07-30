@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
 body{
     background-color: black;
     color:white;
     text-align: center;
-    font-family: 'Aldrich';
+    font-family: 'Bangers';
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -54,7 +56,7 @@ body{
         width: 100vw;
         height: 50px;
         background-color: transparent;
-        font-family: 'Audiowide';
+        color: #464543;
     }
 
     .nav-colored { background-color:#000; box-shadow: 1px 1px 10px #20202077;}
@@ -83,13 +85,20 @@ body{
 
     .l-cntn{
         position: absolute;
+        top: 30vh;
         width: 40vw;
         height: 60vh;
         z-index: 2;
         bottom: 170px;
         left: 30px;
         z-index: 2;
+        color: #464543;
     }
+
+    .l-cntn h1{
+        font-size: 20px;
+    }
+    
 
     .l-cntn img{
         width: 50%;
@@ -99,56 +108,28 @@ body{
     .l-cntn a{
         text-decoration: none;
         position: relative;
-        color: black;
-        background-color: white;
+        color: white;
+        background-color: #1bbfa0;
         padding: 10px 20px;
         top: 20px;
+        margin-right: 20px;
     }
 
     .l-cntn a:hover{
-        color: white;
+        color: #464543;
         background-color: transparent;
-        border: 1px solid white;
+        border: 1px solid #464543;
     }
 
-    .slideshow-container{
-        position: relative;
-        height: 50%;
-        text-align: center;
-        align-content: center;
-    }
-
-    .text{
+    .coin{
         position: absolute;
-        bottom: 30px;
-        width: 80%;
-        left: 10%;
+        z-index: 99999;
+        right: 35vw;
+        top: 20vh
     }
 
-    .r-cntn{
-        position: absolute;
-        width: 40vw;
-        height: 70vh;
-        z-index: 2;
-        bottom: 100px;
-        right: 50px;
-    }
-
-    .r-cntn img{
-        width: 50%;
-        position: relative;
-    }
-
-    .line{
-        width: 60%;
-        border-top: 1px solid rgba(255, 255, 255, 0.616);
-        position: relative;
-        left: 20%;
-        top: -15px
-    }
-
-    .r-cntn h1{
-        font-weight: lighter;
+    .coin img{
+        width: 20vw;
     }
 
     #demo{
@@ -187,7 +168,7 @@ body{
     #rm{
         position: relative;
         z-index: 999;
-        color: white;
+        color: #464543;
         top: 94vh;
         background-color: rgba(0, 0, 0, 0.781);
         padding: 10px 30px;
@@ -202,6 +183,7 @@ body{
         left: 4vw;
         height: 90vh;
         text-align: left;
+        color: #464543;
     }
 
     .rm-l{
@@ -209,6 +191,7 @@ body{
         width: 40%;
         top:40%;
         left: 30px;
+        color: #464543;
     }
 
     .roadmap img{
@@ -218,16 +201,48 @@ body{
         top: 20%
     }
 
+    .why{
+        position: relative;
+        top: 100vh;
+        z-index: 999;
+        width: 90vw;
+        left: 4vw;
+        height: 90vh;
+        text-align: left;
+        color: #464543;
+    }
+
+    .wbox{
+        width: 50vw;
+        padding: 10px;
+    }
+
+    .witem{
+        width: 25%;
+        text-align: center;
+        box-shadow: 1px 1px 10px #20202077;
+        background-color: white;
+        display: inline-block;
+        padding: 10px 15px;
+        border-radius: 20px;
+        margin-right: 10px;
+        height: 220px;
+    }
+
+    .witem h1{
+        font-size: 20px;
+    }
+
     /* footer */
     .footer{
-        background-color: black;
+        background-color: #5158ad;
         position: relative;
         left: -10px;
         width: 100vw;
-        color: white;
         top: 110vh;
         text-align: left;
         margin-bottom: 0;
+        color: white;
     }
 
     .footerbox{
@@ -242,7 +257,7 @@ body{
     }
 
     .footerbox p{
-        color: #717171;
+        color: white;
     }
 
     .footerbox a{

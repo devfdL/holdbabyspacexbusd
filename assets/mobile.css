@@ -23,7 +23,6 @@ body{
         top: 0;
         left: 0;
         height: 50px;
-        box-shadow: 1px 1px 10px #20202077;
     }
 
     .topbar h1{
@@ -79,9 +78,10 @@ body{
     .l-cntn{
         position: relative;
         z-index: 999;
-        width: 90vw;
-        left: 4vw;
+        width: 80vw;
+        left: 8vw;
         top: 90px;
+        color: #464543;
     }
 
     .l-cntn a{
@@ -103,6 +103,18 @@ body{
 
     .l-cntn h1{
         font-size: 25px;
+    }
+
+    .coin{
+        position: relative;
+        z-index: 999;
+        width: 90vw;
+        left: 4vw;
+        top: 120px
+    }
+
+    .coin img{
+        width: 50vw;
     }
 
     .r-cntn{
@@ -139,17 +151,44 @@ body{
         height: 40px;
     }
 
+    .why{
+        position: relative;
+        z-index: 999;
+        width: 90vw;
+        left: 4vw;
+        top: 250px;
+        color: #464543;
+    }
+
+    .witem{
+        width: 90%;
+        text-align: center;
+        box-shadow: 1px 1px 10px #20202077;
+        background-color: white;
+        padding: 10px 15px;
+        border-radius: 20px;
+        margin-right: 10px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .witem h1{
+        font-size: 20px;
+    }
+
     .roadmap{
         position: relative;
         z-index: 999;
         width: 90vw;
         left: 4vw;
         top: 250px;
+        color: #464543;
     }
 
     .roadmap p{
         font-size: 25px;
         margin-bottom: 0;
+        color: #464543;
     }
 
     .roadmap img{
@@ -165,6 +204,7 @@ body{
         background-color: black;
         padding-top: 20px;
         padding-bottom: 20px;
+        background-color: #5158ad;
     }
 
     .footerbox{
